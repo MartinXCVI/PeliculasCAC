@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!---CDNjs íconos Font Awesome --->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--- CSS Stylesheet --->
+  <link rel="stylesheet" href="registro.css">
+  <title>Registro</title>
+</head>
+<body>
+  <header class="header-registro">
+    <ul>
+      <li><a href=""><i class="fa-solid fa-film"></i> PelículasCAC</a></li>
+    </ul>
+  </header>
+  <main id="main-registro">
+    <section class="contenedor-formulario">
+      <form action="" id="formulario-registro">
+        <fieldset class="campo-1">
+          <legend>Registro</legend>
+          <div class="form-div">
+            <label for="nombre-input"><i class="fa-regular fa-user"></i> Nombre: </label>
+            <input type="text" name="nombre" id="nombre-input" placeholder="Escriba su nombre" required>
+          </div>
+          <div class="form-div">
+            <label for="apellido-input"><i class="fa-solid fa-user"></i> Apellido: </label>
+            <input type="text" name="apellido" id="apellido-input" placeholder="Escriba su apellido" required>
+          </div>
+          <div class="form-div">
+            <label for="email-input"><i class="fa-solid fa-envelope"></i> Email: </label>
+            <input type="text" name="email" id="email-input" placeholder="Escriba su email" required>
+          </div>
+          <div class="form-div">
+            <label for="pass-input"><i class="fa-solid fa-key"></i> Contraseña: </label>
+            <input type="password" name="pass" id="pass-input" placeholder="Escriba su contraseña" required>
+          </div>
+          <div class="form-div">
+            <label for="fecha-nac-input"><i class="fa-regular fa-calendar-days"></i> Fecha de Nacimiento: </label>
+            <input type="date" name="fecha-nac" id="fecha-nac-input" placeholder="Seleccione su fecha de nacimiento" required>
+          </div>
+          <div class="form-div">
+            <label for="pais-lista"><i class="fa-solid fa-earth-americas"></i> País: </label>
+            <select name="pais-origen" id="pais-lista" aria-placeholder="Seleccione su país" required>
+              <option value="argentina" selected>Argentina</option>
+              <option value="uruguay">Uruguay</option>
+              <option value="bolivia">Bolivia</option>
+              <option value="paraguay">Paraguay</option>
+              <option value="chile">Chile</option>
+              <option value="peru">Perú</option>
+              <option value="brasil">Brasil</option>
+              <option value="colombia">Colombia</option>
+              <option value="ecuador">Ecuador</option>
+              <option value="venezuela">Venezuela</option>
+              <option value="mexico">México</option>
+            </select>
+          </div>
+          <div class="terminos-div">
+            <input type="checkbox" name="acepto" id="terminos-input" required checked>
+            <label for="terminos-input"> Acepto los términos y condiciones <i class="fa-solid fa-file-signature"></i></label>
+          </div>
+        </fieldset>
+        <div class="enviar-div">
+          <input type="submit" id="registrar-btn" value="Registrarme">
+          <input type="reset" id="limpiar-btn" value="Limpiar">
+        </div>
+      </form>
+    </section>
+  </main>
+</body>
+</html>

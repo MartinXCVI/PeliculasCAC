@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--- CDNjs para íconos Font Awesome --->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--- CSS Stylesheet --->
+  <link rel="stylesheet" href="login.css">
+  <title>Login</title>
+</head>
+<body>
+  <header class="header-login">
+    <ul>
+      <li><a href=""><i class="fa-solid fa-film"></i> PelículasCAC</a></li>
+    </ul>
+  </header>
+  <main id="main-login">
+    <section class="login-contenedor">
+      <form action="" id="login-form">
+        <fieldset class="login-field">
+          <legend>Iniciar Sesión</legend>
+          <div class="login-div">
+            <label for="mail-login"><i class="fa-solid fa-envelope"></i> Email: </label>
+            <input type="text" name="mail-usuario" id="mail-login" placeholder="Escriba su email" required>
+          </div>
+          <div class="login-div">
+            <label for="pass-login"><i class="fa-solid fa-key"></i> Contraseña: </label>
+            <input type="password" name="pass-usuario" id="pass-login" placeholder="Escriba su contraseña" required>
+          </div>
+        </fieldset>
+        <div class="login-botones">
+          <input type="submit" value="Iniciar Sesión" id="login-btn">
+          <input type="reset" value="Limpiar" id="limpiar-btn">
+        </div>
+        <p class="sugerencia">¿No tenés cuenta? <a class="registrar-link" href="">¡Registrate!</a></p>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
