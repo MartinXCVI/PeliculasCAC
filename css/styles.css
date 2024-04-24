@@ -321,7 +321,7 @@ nav ul li {
   justify-content: space-around;
   align-items: center;
   padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
+  padding-bottom: 1.5rem;
 }
 
 .footer-botones a {
@@ -353,7 +353,7 @@ nav ul li {
   display: flex;
   justify-content: space-between;
   padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
+  padding-bottom: 1.5rem;
 }
 
 #footer-datos .footer-datos-div p {
@@ -376,8 +376,8 @@ nav ul li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.5rem;
 }
 
 #firma a {
@@ -391,6 +391,7 @@ nav ul li {
 
 .derechos-div p {
   font-size: 0.8rem;
+  margin-bottom: 0.2rem;
 }
 
 
@@ -468,6 +469,28 @@ nav ul li {
 
   .mosaico-peliculas .card {
     margin-bottom: 0;
+  }
+
+  .footer-botones, #footer-datos {
+    flex-direction: column;
+  }
+
+  .footer-botones a {
+    margin-bottom: 1rem;
+  }
+
+  #footer-datos .footer-datos-div p {
+    line-height: 1.25rem;
+    font-size: 0.9rem;
+  }
+
+  #firma {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #firma a {
+    margin-bottom: 0.5rem;
   }
 
 }
