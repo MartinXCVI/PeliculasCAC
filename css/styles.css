@@ -286,7 +286,7 @@ nav ul li {
   overscroll-behavior-inline: contain;
   scrollbar-color: #ff4081 #2c2c2c;
   padding: 2rem 0;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
 }
 
 .proximos-section::-webkit-scrollbar-thumb {
@@ -300,6 +300,99 @@ nav ul li {
 .proximos-contenedor div {
   margin: 0 1rem;
 }
+
+/*-------------FOOTER--------------*/
+
+#footer-index {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #262626;
+  color: white;
+  padding: 1.5rem 1rem;
+  box-shadow: 0 -0.01rem 0.4rem 0 #ff4081;
+}
+
+.footer-botones {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.footer-botones a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: 0.3s linear;
+}
+
+#footer-registro {
+  background-color: white;
+  color: #ff4081;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+}
+
+#footer-registro:hover {
+  background-color: #ff4081;
+  color: white;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+  color: #ff4081;
+}
+
+#footer-datos {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+#footer-datos .footer-datos-div p {
+  line-height: 0.75rem;
+}
+
+#redes-span a {
+  color: white;
+  margin-right: 0.5rem;
+  transition: 0.3s linear;
+}
+
+#redes-span a:hover {
+  color: #ff4081;
+}
+
+#firma-footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#firma a {
+  padding-inline: 0.5rem;
+  text-decoration: none;
+}
+
+.derechos-div {
+  padding-top: 1.5rem;
+}
+
+.derechos-div p {
+  font-size: 0.8rem;
+}
+
 
 /**--------------480px--------------**/
 
