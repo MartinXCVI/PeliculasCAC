@@ -28,6 +28,8 @@ body {
 .hero-titulo a {
   text-decoration: none;
   color: white;
+  padding: 0.5rem 1rem;
+  transition: 0.3s linear;
 }
 
 .header-contenedor {
@@ -61,8 +63,8 @@ nav ul li {
 
 .search button {
   padding: 0.5rem 1rem;
-  background-color: #ff4081; /* Blanco */
-  color: white; /* Rosa intenso */
+  background-color: #ff4081;
+  color: white;
   border-radius: 0 2rem 2rem 0;
   cursor: pointer;
 }
@@ -83,12 +85,30 @@ nav ul li {
 }
 
 .user-div .app {
-  background-color: #ffffff; /* Blanco */
-  color: #ff4081; /* Rosa intenso */
+  background-color: #ffffff;
+  color: #ff4081;
   padding: 0.35rem 1rem;
   border-radius: 2rem;
   text-decoration: none;
   margin-right: auto; /* Empuja estos elementos a la derecha */
+  transition: 0.3s linear;
+}
+
+.nav-link {
+  padding: 0.5rem 1rem;
+  transition: 0.3s linear;
+}
+
+.hero-titulo a:hover, .nav-link:hover {
+  color: #262626;
+  background-color: white;
+  border-radius: 2rem;
+}
+
+.user-div .app:hover {
+  color: white;
+  background-color: #ff4081;
+  border-radius: 0.5rem;
 }
 
 /*---- MAIN ----*/
@@ -188,7 +208,14 @@ nav ul li {
   border-radius: 2rem;
   background-color: #ffffff;
   text-decoration: none;
-  color: #ff4081
+  color: #ff4081;
+  transition: 0.3s linear !important;
+}
+
+.bienvenida-box a:hover {
+  color: white;
+  background-color: #ff4081;
+  border-radius: 0.5rem;
 }
 
 .carousel-titulo {
@@ -254,6 +281,19 @@ nav ul li {
 
 .mosaico-peliculas .card {
   margin-bottom: 2rem;
+  transition: 0.3s linear;
+  overflow: hidden;
+}
+
+.proximos-contenedor .card {
+  transition: 0.3s linear;
+  overflow: hidden;
+}
+
+.mosaico-peliculas .card:hover, .proximos-contenedor .card:hover {
+  box-shadow: 0 0 0.5rem 0 #ff4081 !important;
+  transform: scale(1.05);
+  cursor: pointer;
 }
 
 .card .card-body {
@@ -328,7 +368,7 @@ nav ul li {
   color: white;
   text-decoration: none;
   font-size: 1.2rem;
-  transition: 0.3s linear;
+  transition: 0.3s linear !important;
 }
 
 #footer-registro {
@@ -336,11 +376,13 @@ nav ul li {
   color: #ff4081;
   padding: 0.5rem 1rem;
   border-radius: 2rem;
+  transition: 0.3s linear;
 }
 
 #footer-registro:hover {
   background-color: #ff4081;
   color: white;
+  border-radius: 0.5rem;
 }
 
 .footer-link:hover {

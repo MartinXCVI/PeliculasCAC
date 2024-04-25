@@ -174,14 +174,14 @@ body::before {
 @media all and (max-width: 320px) {
 
   #login-form {
-    width: 90%;
+    min-width: 90%;
   }
 }
 
 @media all and (max-width: 480px) {
 
   #login-form {
-    width: 70%;
+    min-width: 75%;
   }
 
   .login-field legend {
@@ -193,20 +193,20 @@ body::before {
 @media all and (max-width: 768px) {
 
   #login-form {
-    width: 60%;
+    min-width: 60%;
   }
 }
 
 @media all and (max-width: 960px) {
 
   #login-form {
-    width: 50%;
+    min-width: 50%;
   }
 }
 
 @media all and (max-width: 1023px) {
 
   #login-form {
-    width: 40%;
+    min-width: 40%;
   }
 }
