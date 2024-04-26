@@ -34,23 +34,23 @@
           <legend>Registro</legend>
           <div class="form-div">
             <label for="nombre-input"><i class="fa-regular fa-user"></i> Nombre: </label>
-            <input type="text" name="nombre" id="nombre-input" placeholder="Escriba su nombre" required>
+            <input type="text" name="nombre" id="nombre-input" placeholder="Escriba su nombre" minlength="3" maxlength="35" required>
           </div>
           <div class="form-div">
             <label for="apellido-input"><i class="fa-solid fa-user"></i> Apellido: </label>
-            <input type="text" name="apellido" id="apellido-input" placeholder="Escriba su apellido" required>
+            <input type="text" name="apellido" id="apellido-input" placeholder="Escriba su apellido" minlength="3" maxlength="35" required>
           </div>
           <div class="form-div">
             <label for="email-input"><i class="fa-solid fa-envelope"></i> Email: </label>
-            <input type="text" name="email" id="email-input" placeholder="Escriba su email" required>
+            <input type="text" name="email" id="email-input" placeholder="Escriba su email" maxlength="120" required>
           </div>
           <div class="form-div">
             <label for="pass-input"><i class="fa-solid fa-key"></i> Contraseña: </label>
-            <input type="password" name="pass" id="pass-input" placeholder="Escriba su contraseña" required>
+            <input type="password" name="pass" id="pass-input" placeholder="Escriba su contraseña" minlength="8" maxlength="50" required>
           </div>
           <div class="form-div">
             <label for="fecha-nac-input"><i class="fa-regular fa-calendar-days"></i> Fecha de Nacimiento: </label>
-            <input type="date" name="fecha-nac" id="fecha-nac-input" placeholder="Seleccione su fecha de nacimiento" required>
+            <input type="date" name="fecha-nac" id="fecha-nac-input" placeholder="Seleccione su fecha de nacimiento" min="8" max="8" required>
           </div>
           <div class="form-div">
             <label for="pais-lista"><i class="fa-solid fa-earth-americas"></i> País: </label>
