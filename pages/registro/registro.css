@@ -7,6 +7,8 @@
   outline: none;
 }
 
+/*---------- CSS General ----------*/
+
 body {
   position: relative;
 }
@@ -22,6 +24,8 @@ body::before {
   background-size: cover;
   opacity: 0.8;
 }
+
+/*---- HEADER ----*/
 
 .header-registro {
   padding: 1rem;
@@ -39,6 +43,8 @@ body::before {
   margin-top: 1rem;
   border-radius: 1rem;
 }
+
+/*---- MAIN ----*/
 
 #main-registro {
   min-height: 100vh;
@@ -161,6 +167,8 @@ body::before {
 .enviar-div #limpiar-btn:hover {
   background-color: springgreen;
 }
+
+/**---- BREAKPOINTS ----**/
 
 @media all and (min-width: 320px) {
 

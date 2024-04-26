@@ -7,6 +7,10 @@
   outline: none;
 }
 
+/*---------- CSS General ----------*/
+
+/*---- HEADER ----*/
+
 .header-preguntas {
   padding: 1.5rem 1rem;
   background: #262626;
@@ -25,6 +29,8 @@
   margin-top: 1rem;
   border-radius: 1rem;
 }
+
+/*---- MAIN ----*/
 
 #preguntas-main {
   width: 100%;
@@ -105,7 +111,7 @@
   margin-bottom: 0.2rem;
 }
 
-/*-------------959px-------------*/
+/*--------- 959px breakpoint ---------*/
 
 @media all and (max-width: 959px) {
 

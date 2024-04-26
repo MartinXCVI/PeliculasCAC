@@ -7,6 +7,8 @@
   outline: none;
 }
 
+/*---------- CSS General ----------*/
+
 body {
   position: relative;
 }
@@ -22,6 +24,8 @@ body::before {
   background-size: cover;
   opacity: 0.8;
 }
+
+/*---- HEADER ----*/
 
 .header-login {
   padding: 1rem;
@@ -39,6 +43,8 @@ body::before {
   margin-top: 1rem;
   border-radius: 1rem;
 }
+
+/*---- MAIN ----*/
 
 #main-login {
   min-height: 100vh;
@@ -170,6 +176,8 @@ body::before {
 .sugerencia .registrar-link:hover {
   color: blueviolet;
 }
+
+/**---- BREAKPOINTS ----**/
 
 @media all and (max-width: 320px) {
 
