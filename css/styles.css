@@ -427,6 +427,52 @@ nav ul li {
   text-decoration: none;
 }
 
+.pamela-firma, .andres-firma, .cecilia-firma, .martin-firma {
+  /* background-color: whitesmoke; */
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+  margin-inline: 0.5rem;
+  transition: 0.3s linear;
+}
+
+.pamela-firma {
+  color: #318CE7;
+}
+
+.pamela-firma:hover {
+  background-color: #318CE7;
+  color: white;
+}
+
+.andres-firma {
+  color: #c11313;
+}
+
+.andres-firma:hover {
+  background-color: #c11313;
+  color: white;
+}
+
+.cecilia-firma {
+  color: #ffb8c4;
+}
+
+.cecilia-firma:hover {
+  background-color: #ffb8c4;
+  color: white;
+}
+
+.martin-firma {
+  color: #708090;
+}
+
+.martin-firma:hover {
+  background-color: #708090;
+  color: white;
+}
+
+
+
 .derechos-div {
   padding-top: 1.5rem;
 }
