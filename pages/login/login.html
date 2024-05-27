@@ -29,21 +29,23 @@
   <!---- MAIN ---->
   <main id="main-login">
     <section class="login-contenedor">
-      <form action="" id="login-form" data-aos="zoom-in">
+      <form method="get" action="#" id="login-form" data-aos="zoom-in">
         <fieldset class="login-field">
           <legend>Iniciar Sesión</legend>
           <div class="login-div">
             <label for="mail-login"><i class="fa-solid fa-envelope"></i> Email: </label>
-            <input type="text" name="mail-usuario" id="mail-login" placeholder="Escriba su email" required>
+            <input type="text" name="mail-usuario" id="mail-login" placeholder="Escriba su email" >
+            <p class="email-mensaje"></p>
           </div>
           <div class="login-div">
             <label for="pass-login"><i class="fa-solid fa-key"></i> Contraseña: </label>
-            <input type="password" name="pass-usuario" id="pass-login" placeholder="Escriba su contraseña" required>
+            <input type="password" name="pass-usuario" id="pass-login" placeholder="Escriba su contraseña">
+            <p class="pass-mensaje"></p>
           </div>
         </fieldset>
         <div class="login-botones">
-          <input type="submit" value="Iniciar Sesión" id="login-btn">
-          <input type="reset" value="Limpiar" id="limpiar-btn">
+          <input type="submit" id="login-btn" value="Iniciar Sesión">
+          <input type="reset" id="limpiar-btn" value="Limpiar">
         </div>
         <p class="sugerencia">¿No tenés cuenta? <a class="registrar-link" href="../registro/registro.html">¡Registrate!</a></p>
       </form>
@@ -51,6 +53,8 @@
   </main>
 
   <!----------- SCRIPTS ------------>
+  <!---- JavaScript ---->
+  <script src="../../js/validacionLogin.js"></script>
   <!---- Bootstrap scripts ---->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   <!----- AOS scripts ------>
