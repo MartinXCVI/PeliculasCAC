@@ -132,6 +132,15 @@ body::before {
   outline: 2px solid purple;
 }
 
+.form-mensaje {
+  padding-top: 0.5rem;
+}
+
+.terminos-mensaje {
+  width: 100%;
+  text-align: left;
+}
+
 .enviar-div {
   width: 100%;
   display: flex;

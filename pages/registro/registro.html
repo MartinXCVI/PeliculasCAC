@@ -34,28 +34,34 @@
           <legend>Registro</legend>
           <div class="form-div">
             <label for="nombre-input"><i class="fa-regular fa-user"></i> Nombre: </label>
-            <input type="text" name="nombre" id="nombre-input" placeholder="Escriba su nombre" minlength="3" maxlength="35" required>
+            <input type="text" name="nombre" id="nombre-input" placeholder="Escriba su nombre">
+            <p class="nombre-mensaje form-mensaje"></p>
           </div>
           <div class="form-div">
             <label for="apellido-input"><i class="fa-solid fa-user"></i> Apellido: </label>
-            <input type="text" name="apellido" id="apellido-input" placeholder="Escriba su apellido" minlength="3" maxlength="35" required>
+            <input type="text" name="apellido" id="apellido-input" placeholder="Escriba su apellido">
+            <p class="apellido-mensaje form-mensaje"></p>
           </div>
           <div class="form-div">
             <label for="email-input"><i class="fa-solid fa-envelope"></i> Email: </label>
-            <input type="text" name="email" id="email-input" placeholder="Escriba su email" maxlength="120" required>
+            <input type="text" name="email" id="email-input" placeholder="Escriba su email">
+            <p class="email-mensaje form-mensaje"></p>
           </div>
           <div class="form-div">
             <label for="pass-input"><i class="fa-solid fa-key"></i> Contraseña: </label>
-            <input type="password" name="pass" id="pass-input" placeholder="Escriba su contraseña" minlength="8" maxlength="50" required>
+            <input type="password" name="pass" id="pass-input" placeholder="Escriba su contraseña">
+            <p class="pass-mensaje form-mensaje"></p>
           </div>
           <div class="form-div">
             <label for="fecha-nac-input"><i class="fa-regular fa-calendar-days"></i> Fecha de Nacimiento: </label>
-            <input type="date" name="fecha-nac" id="fecha-nac-input" placeholder="Seleccione su fecha de nacimiento" min="8" max="8" required>
+            <input type="date" name="fecha-nac" id="fecha-nac-input" placeholder="Seleccione su fecha de nacimiento" pattern="\d{2}-\d{2}-\d{4}">
+            <p class="edad-mensaje form-mensaje"></p>
           </div>
           <div class="form-div">
             <label for="pais-lista"><i class="fa-solid fa-earth-americas"></i> País: </label>
-            <select name="pais-origen" id="pais-lista" aria-placeholder="Seleccione su país" required>
-              <option value="argentina" selected>Argentina</option>
+            <select name="pais-origen" id="pais-lista" aria-placeholder="Seleccione su país">
+              <option value="seleccionar">--Seleccione su país</option>
+              <option value="argentina">Argentina</option>
               <option value="uruguay">Uruguay</option>
               <option value="bolivia">Bolivia</option>
               <option value="paraguay">Paraguay</option>
@@ -67,11 +73,13 @@
               <option value="venezuela">Venezuela</option>
               <option value="mexico">México</option>
             </select>
+            <p class="pais-mensaje form-mensaje"></p>
           </div>
           <div class="terminos-div">
-            <input type="checkbox" name="acepto" id="terminos-input" required checked>
+            <input type="checkbox" name="acepto" id="terminos-input">
             <label for="terminos-input"> Acepto los términos y condiciones <i class="fa-solid fa-file-signature"></i></label>
           </div>
+          <p class="terminos-mensaje form-mensaje"></p>
         </fieldset>
         <div class="enviar-div">
           <input type="submit" id="registrar-btn" value="Registrarme">
@@ -82,6 +90,8 @@
   </main>
 
   <!----------- SCRIPTS ------------>
+  <!---- JavaScript ---->
+  <script src="../../js/validacionRegistro.js"></script>
   <!---- Bootstrap scripts ---->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   <!----- AOS scripts ------>
