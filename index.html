@@ -36,7 +36,8 @@
       </div>
       <div class="search">
         <span class="search-span">
-          <input type="search" placeholder="Buscar...">
+          <label for="busqueda-input"></label>
+          <input type="search" id="busqueda-input" placeholder="Buscar...">
         <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
         </span>
       </div>
@@ -62,6 +63,17 @@
           <a href="pages/registro/registro.html" data-aos="fade-left">Registrarme</a>
         </div>
       </section>
+    </section>
+    <!---- Section de la API Rick & Morty ---->
+    <div class="rick-morty-titulo-div">
+        <hr class="linea-lateral" data-aos="fade-right" data-aos-offset="400" data-aos-easing="ease-in-sine">
+        <h2 data-aos="fade-up">¿Te gusta Rick & Morty?</h2>
+        <hr class="linea-lateral" data-aos="fade-left" data-aos-offset="400" data-aos-easing="ease-in-sine">
+    </div>
+    <section id="rick-morty-section">
+    </section>
+    <section class="rick-morty-btn-section">
+      <button class="rick-morty-btn-mostrar" type="button">Me Encanta <i class="fa-brands fa-react"></i></button>
     </section>
     <!---- Baners carousel ---->
     <section class="carousel-container">
@@ -278,6 +290,8 @@
   <!----------- SCRIPTS ------------>
   <!---- JavaScript ---->
   <script src="js/apis/reloj.js"></script>
+  <script src="js/apis/rickAndMorty.js"></script>
+  <script src="js/mostrarImgsAPI.js"></script>
   <!---- Bootstrap scripts ---->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   <!----- AOS scripts ------>

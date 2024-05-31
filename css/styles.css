@@ -238,6 +238,82 @@ nav ul li {
   border-radius: 0.5rem;
 }
 
+.rick-morty-titulo-div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #2c2c2c;
+  color: white;
+  text-align: center;
+  padding: 3rem 0;
+}
+
+#rick-morty-section {
+  width: 100%;
+  display: none;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2rem 1rem;
+  background-color: #2c2c2c;
+  color: white;
+}
+
+.rick-morty-div {
+  width: 15% !important;
+  padding: 1rem;
+}
+
+.rick-morty-div figure {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s linear;
+}
+
+.rick-morty-div figure img {
+  width: 100%;
+  border-radius: 0.65rem;
+  margin-bottom: 0.5rem;
+}
+
+.rick-morty-div figure figcaption {
+  font-size: 0.75rem;
+}
+
+.rick-morty-div figure:hover {
+  filter: drop-shadow(0 0 0.35rem #ff4081)  !important;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.rick-morty-btn-section {
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2c2c2c;
+}
+
+.rick-morty-btn-mostrar {
+  background-color: white;
+  color: #ff4081;
+  padding: 2rem 4rem;
+  border-radius: 3rem;
+  transition: 0.3s linear;
+}
+
+.rick-morty-btn-mostrar:hover {
+  border-radius: 1rem;
+  background-color: #ff4081;
+  color: white;
+}
+
 .carousel-titulo {
   width: 100%;
   display: flex;
@@ -504,6 +580,13 @@ nav ul li {
 
 /**--------------480px--------------**/
 
+@media all and (max-width: 479px) {
+  .rick-morty-div {
+    width: 75%;
+    padding: 1rem;
+  }
+}
+
 @media all and (max-width: 480px) {
 
   .user-div a, .user-div .app {
@@ -516,6 +599,11 @@ nav ul li {
     padding: 0.5rem
   }
 
+  .rick-morty-div {
+    width: 50%;
+    padding: 1rem;
+  }
+
 }
 
 /**--------------576px--------------**/
@@ -524,12 +612,18 @@ nav ul li {
   .contenedor-index::after {
     background-position-y: 45%;
   }
+  
 }
 
 @media all and (max-width: 576px) {
 
   .contenedor-index::after {
     background-image: url('../assets/images/backgrounds/home-mobile-bg.jpg') !important;
+  }
+
+  .rick-morty-div {
+    width: 30% !important;
+    padding: 1rem;
   }
 
 }
@@ -564,6 +658,11 @@ nav ul li {
     width: 90%;
     font-size: 1.75rem;
     padding: 0.5rem
+  }
+
+  .rick-morty-div {
+    width: 20%;
+    padding: 1rem;
   }
 
   .mosaico-peliculas {
