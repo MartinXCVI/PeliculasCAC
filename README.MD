@@ -26,7 +26,7 @@ Sitio web ficticio sobre una plataforma de streaming de películas, series, anim
 - Implementación de Git, y comandos de Bash.
 - Habilidades blandas para trabajo en equipo y eficientización del proyecto.
 
-## Entre Final Frontend. (31/04/2024)
+## Entrega Final Frontend. (31/04/2024)
 
 ### Contenidos:
 
@@ -62,14 +62,14 @@ Sitio web ficticio sobre una plataforma de streaming de películas, series, anim
     - Galería de mosáicos de portadas.
     - Carrusel de portadas de próximos estrenos.
   - ###### Footer:
-    - Botonese de registro, preguntas frecuentes y sección de términos y condiciones.
+    - Botones de registro, preguntas frecuentes y sección de términos y condiciones.
     - Datos de la empresa.
     - Íconos con enlaces a redes sociales.
     - Firma de los desarrolladores
     - Sello de la reserva de derechos del sitio.
 
 ##### Página de Registro
-  - Formularo de registro.
+  - Formulario de registro.
   - Validación mediante JavaScript.
 
 ##### Página de Inicio de Sesión
